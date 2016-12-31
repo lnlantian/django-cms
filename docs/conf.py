@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-#
 # django cms documentation build configuration file, created by
 # sphinx-quickstart on Tue Sep 15 10:47:03 2009.
 #
