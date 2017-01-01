@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 from django.utils.encoding import smart_str
 
-
 class Menu(object):
     namespace = None
-
     def __init__(self, renderer):
         self.renderer = renderer
 
@@ -25,7 +23,6 @@ class Modifier(object):
 
     def modify(self, request, nodes, namespace, root_id, post_cut, breadcrumb):
         pass
-
 
 class NavigationNode(object):
 
