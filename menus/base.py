@@ -28,16 +28,16 @@ class NavigationNode(object):
 
     def __init__(self, title, url, id, parent_id=None, parent_namespace=None,
                  attr=None, visible=True):
-        self.children = []  # do not touch
-        self.parent = None  # do not touch, code depends on this
-        self.namespace = None  # TODO: Assert why we need this and above
+        self.children = [] 
+        self.parent = None  
+        self.namespace = None 
         self.title = title
         self.url = url
         self.id = id
         self.parent_id = parent_id
         self.parent_namespace = parent_namespace
         self.visible = visible
-        self.attr = attr or {} # To avoid declaring a dict in defaults...
+        self.attr = attr or {}
 
     def __repr__(self):
         return "<Navigation Node: %s>" % smart_str(self.title)
